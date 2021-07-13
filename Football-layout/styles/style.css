@@ -5,11 +5,22 @@ body{
     margin: 0%;
 }
 
-/*-----------------------------------1st part css---------------------------*/
 h1{
     font-size: 64px;
     color: #FFFFFF;
 }
+h2{
+    font-size: 48px;
+    color: #0A0826;
+}
+p{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+
+/*-----------------------------------1st part css---------------------------*/
+
 .america-border{
     background-color: #2D25A0;
     width:100%;
@@ -58,6 +69,30 @@ h1{
 .player img{
     width:310px;
     height: 256px;
+}
+
+/*-----------------------------------3nd part css---------------------------*/
+
+.Highlights{
+    width: 100%;
+    padding-left: 6%;
+    padding-right: 6%;
+    
+}
+.Highlights img{
+    Width:556.01px;
+}
+.text-align{
+    padding-top:10px;
+}
+
+
+
+/*-----------------------------------last part css---------------------------*/
+
+.logo-width{ 
+    width: 483.87px;
+     height: 110px;
 }
 
 
