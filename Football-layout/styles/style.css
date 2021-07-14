@@ -21,7 +21,7 @@ p{
 }
 
 section{
-    margin-bottom: 50px;}
+    margin-bottom: 100px;}
 /*-----------------------------------1st part css---------------------------*/
 
 .america-border{
@@ -43,6 +43,10 @@ section{
 .half-width img{
     Width:100%;
 }
+.half-width:hover img{
+    transform: scale(1.3) skew(20deg);
+    transition: transform 1s ease-in-out;
+}
 .button-link{
     background-image:linear-gradient(rgb(245, 20, 58),rgb(137, 123, 146));
     text-decoration: none; 
@@ -50,6 +54,11 @@ section{
     padding: 15px 24px;
     border-radius: 2px;
 }
+.button-link:hover{  
+    background-color:rgb(124, 73, 73);
+    transition: 2s ease-in-out;
+}
+
 
 /*-----------------------------------2nd part css---------------------------*/
 .container-player{
@@ -91,7 +100,19 @@ section{
 }
 
 
+/*--------------------4th part css------------------------------------------*/
+.copa-video{
+    display: flex;
+    justify-content:space-around;
+}
 
+.video1, .video2, .video3{
+    margin: 5px;
+    padding: 5px;
+}
+.text-center{
+    text-align: center;
+}
 
 /*-----------------------------------last part css---------------------------*/
 .logo-width{
@@ -157,6 +178,12 @@ section{
         flex-direction: column;
         justify-content: center;
     }
-    /* .sporce-footer{display: grid;
-    grid-template-columns: repeat(1,1fr);} */
+    .sporce-footer{display: grid;
+    grid-template-columns: repeat(1,1fr);   
+}
+.logo-width img{ 
+    width:200px;
+    height: 50px;
+}
+
 }
