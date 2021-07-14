@@ -114,6 +114,19 @@ section{
     text-align: center;
 }
 
+/*------------------------5thth part----------------------------------------------*/
+.news-paper{
+    display: flex;
+    justify-content:space-evenly;
+}
+.pic1 img, .pic2 img, .pic3 img, .pic4 img {
+    width:310px;
+    height: 256px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15)
+}
+
+
 /*-----------------------------------last part css---------------------------*/
 .logo-width{
     /* display: grid;
@@ -156,7 +169,7 @@ section{
 /*-------------------------------responsive media quarry----------------------------*/
 
 @media only screen and (max-width:668px) {
-    .banner-flex, .players-blog{
+    .banner-flex, .players-blog, .copa-video,.news-paper{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
